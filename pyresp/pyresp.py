@@ -6,7 +6,7 @@ import logging
 
 # 定义响应统一结构体
 
-def resp_200(code: int = 0, data: Union[List[dict], list, dict, str] = None, message='Success'):
+def resp_200(code: int = 0, data: Union[List[dict], list, dict, str, float] = None, message='Success'):
     """
     200系列的响应结构体
     *：代表调用方法时必须传参数
