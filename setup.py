@@ -11,7 +11,7 @@ with io.open("requirements.txt", 'r') as f:
 
 setup(
     name='pyresp',
-    version='1.0.2',
+    version='1.0.3',
     description='fastapi的通用返回助手',
     author='buyfakett',
     author_email='buyfakett@vip.qq.com',
