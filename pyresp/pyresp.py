@@ -23,8 +23,8 @@ def resp_200(code: int = 0, data: Union[List[dict], list, dict, str, float] = No
             'message': message,
             'data': data,
         }
-    logging.info(f'\033[0;31m接口返回 {code}：'
-                 f'\033[0;32m{response_data}\033[0m'
+    logging.info(f'\033[0;32m接口返回 {code}：'
+                 f'{response_data}\033[0m'
                  )
     return JSONResponse(
         status_code=status.HTTP_200_OK,
